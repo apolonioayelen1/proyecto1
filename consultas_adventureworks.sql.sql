@@ -211,3 +211,17 @@ WHERE Color IN ('White', 'Green', 'Blue');
 
 
 
+ /*Mostrar las personas ordenadas, primero por
+su apellido y luego por su nombre.*/
+
+SELECT *
+FROM Person.Person
+ORDER BY Lastname, Firstname
+
+/*Mostrar los cinco productos más caros y su
+nombre, ordenados en forma alfabética.*/
+
+SELECT TOP 5 *
+FROM Production.Product
+ORDER BY ListPrice desc, name
+
