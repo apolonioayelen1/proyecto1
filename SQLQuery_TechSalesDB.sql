@@ -109,3 +109,23 @@ CREATE TABLE Errores (
  Fecha DATE
 );
 
+-- Mostrar los diferentes productos vendidos.
+
+
+SELECT DISTINCT ProductID
+FROM Sales.SalesOrderDetail;
+
+
+-- Mostrar todos los productos vendidos y ordenados
+--Tablas: Sales.SalesOrderDetail,
+--Production.WorkOrder
+--Campos: ProductI
+
+
+
+
+
+
+
+
+
